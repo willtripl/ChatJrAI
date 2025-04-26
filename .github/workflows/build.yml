@@ -28,7 +28,8 @@ jobs:
           buildozer android debug
 
       - name: Upload APK artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@9d6c7f580fd8cc4cfce7a0f8bb6423e64c41eaa6
         with:
           name: chatjr-apk
           path: bin/*.apk
+          
